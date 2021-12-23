@@ -2,9 +2,15 @@
 
 Split-Pane component built with vue2.0, can be split vertically or horizontally.
 
-## 库源demo [Try the demo](http://panjiachen.github.io/split-pane/demo/index.html)
+## 库源 demo [Try the demo](http://panjiachen.github.io/split-pane/demo/index.html)
+
+> - 对 `panjiachen` 大佬的源码做了优化, 添加了 `max-percent` 选项
+>
+> - 对 `resize`  事件 优化, 只有拖拽发生, 才会触发
 
 ### How to use?
+
+> 这是大佬的使用方法, 他的源码没对 `max-percent`  和 `resize`  优化, 需要注意
 
 ```bash
 npm install vue-splitpane
